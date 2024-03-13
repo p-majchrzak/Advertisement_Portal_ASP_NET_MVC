@@ -1,0 +1,20 @@
+﻿body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img {
+    width: 100px;
+    height: 100px;
+    animation: zoomAnimation 3s infinite alternate;
+}
+@keyframes zoomAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+}
