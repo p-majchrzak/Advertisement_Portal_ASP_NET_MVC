@@ -1,0 +1,82 @@
+﻿.titleFooter {
+    font-size: 20px;
+    font-weight: bold;
+    color: #40356F;
+}
+body {
+    color: #40356F;
+}
+a{
+    color: #40356F;
+    text-decoration: none;
+}
+a:hover{
+    color: #40356F;
+    text-decoration: underline;
+}
+.nav-link{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #40356F;
+}
+.nav-link:hover{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #40356F;
+    font-weight: bold;
+    text-decoration: none;
+}
+.AddButton{
+    background-color: transparent;
+    border-color: #40356F;
+    color: #40356F;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 2.5px;
+    width: 160px;
+}
+.AddButton:hover{
+    background-color: #40356F;
+    border-color: #40356F;
+    color: white;
+}
+.FindButton{
+    background-color: transparent;
+    border-color: #635FCE;
+    color: #635FCE;
+    font-weight: bold;
+    border-radius: 20px;
+    
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 160px;
+}
+.FindButton:hover{
+    background-color: #635FCE;
+    border-color: #635FCE;
+    color: white;
+}
+.navbar {
+    background-color: white;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+.dropdown-item,.dropdown-toggle,.dropdown{
+    color: #40356F;
+    text-decoration: none;
+}
+
+.dropdown-item:hover,.dropdown-toggle:hover,.dropdown:hover{
+    color: #40356F;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footerCenter {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
