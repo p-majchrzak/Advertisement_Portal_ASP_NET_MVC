@@ -80,3 +80,74 @@ a:hover{
     width: 100%;
     text-align: center;
 }
+@media (max-width: 991px) {
+    .navbar {
+        background-color: white !important;
+    }
+
+    .PhotoBackgroundStyle {
+        background-color: #F6EFFF;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .buttonsBlock {
+        width: 100%;
+        height: 150px;
+    }
+}
+@media (min-width: 992px) {
+    .navbar {
+        background-color: transparent !important;
+    }
+
+    .PhotoBackgroundStyle {
+        background-image: url("/Graphics/background.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .buttonsBlock {
+        width: 100%;
+        height: 400px;
+    }
+}
+.MoreInformationBlock{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+.DarkViolet {
+    color: #40356F;
+}
+.SmallIcon {
+    width: 40px;
+    height: 40px;
+}
+.TextBlock {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.UniversalButton{
+    background-color: #40356F;
+    border-color: #40356F;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.buttonTopOffers{
+    background-color: transparent;
+    border-color: #665D8C;
+    color: #665D8C;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 5px;
+}
+.buttonTopOffers:hover{
+    border-color: #40356F;
+    color: #40356F;
+}
