@@ -2,28 +2,26 @@
     Layout = "FirmLayout";
     ViewData["Title"] = "Zaloguj";
 }
-<body class="BackgroundTheme">
-    <div class="row">
-        <div class="col-md-6 leftSiteLogin loginPosition">
-            <h1 class="centerText" style="color: #40356F; margin-top: auto; margin-bottom: auto;">Zaloguj jako użytkownik</h1>
-        </div>
-        <div class="col-md-6 loginPosition">
-            <img class="loginPhoto" src="~/Graphics/logoTransparent.png" asp-append-version="true"><br>
-            <h3>Logowanie firma</h3>
-            <form class="formStyle">
-                <div class="mb-3">
-                    <input placeholder="Podaj email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <input placeholder="Podaj hasło" type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <a href="RecoverPassword">Nie pamiętasz hasła?</a>
-            </form>
-            <button type="submit" class="UniversalButton" style="width: 30%; height: 40px; border-radius: 5px;">Zaloguj</button><br>
-            <button type="submit" class="UniversalButton BackButton">Wróć na stronę główną</button><br><br>
-            <label>Nie masz konta?</label>
-            <a href="Register" >Zarejestruj się</a><br>
-            <label>© 2024 Piotr Majchrzak 4TP1</label>
-        </div>
+<div class="row">
+    <div class="col-md-6 leftSiteLogin loginPosition">
+        <h1 class="centerText" style="color: #40356F; margin-top: auto; margin-bottom: auto;">Zaloguj jako użytkownik</h1>
     </div>
-</body>
+    <div class="col-md-6 loginPosition">
+        <img class="loginPhoto" src="~/Graphics/logoTransparent.png" asp-append-version="true"><br>
+        <h3>Logowanie firma</h3>
+        <form class="formStyle">
+            <div class="mb-3">
+                <input placeholder="Podaj email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <input placeholder="Podaj hasło" type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <a href="RecoverPassword">Nie pamiętasz hasła?</a>
+        </form>
+        <button type="submit" class="UniversalButton" style="width: 30%; height: 40px; border-radius: 5px;">Zaloguj</button><br>
+        <button type="submit" class="UniversalButton BackButton">Wróć na stronę główną</button><br><br>
+        <label>Nie masz konta?</label>
+        <a href="Register">Zarejestruj się</a><br>
+        <label>© 2024 Piotr Majchrzak 4TP1</label>
+    </div>
+</div>
