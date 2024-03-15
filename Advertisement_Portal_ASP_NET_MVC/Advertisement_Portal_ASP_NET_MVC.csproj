@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Views\UserLogged\" />
-    <Folder Include="Views\User\" />
   </ItemGroup>
 
 </Project>
