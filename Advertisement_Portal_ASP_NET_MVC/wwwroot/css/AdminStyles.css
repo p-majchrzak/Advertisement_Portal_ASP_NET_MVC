@@ -76,7 +76,6 @@
     color: #40356F;
     margin: auto;
 }
-
 .dropdown {
     margin: auto;
 }
@@ -86,7 +85,11 @@
 .DarkViolet {
     color: #40356F;
 }
-
 .LightViolet {
     color: #665D8C;
+}
+.modeInformationBlock {
+    background-color: white;
+    width: 100%;
+    text-align: center;
 }
