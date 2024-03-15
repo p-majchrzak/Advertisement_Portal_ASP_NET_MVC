@@ -43,6 +43,10 @@ namespace Advertisement_Portal_ASP_NET_MVC.Controllers
         {
             return View();
         }
+        public IActionResult FirmProfile()
+        {
+            return View();
+        }
         public IActionResult ViewAdvertisements()
         {
             return View();
