@@ -151,3 +151,20 @@ a:hover{
     border-color: #40356F;
     color: #40356F;
 }
+.styleTextOnDownload {
+    color: #40356F;
+    font-size: 20px;
+}
+.downloadLink{
+    color: #635FCE;
+    text-decoration: none;
+}
+
+.downloadLink:hover{
+    color: #635FCE;
+    text-decoration: underline;
+}
+.downloadBlockMargin {
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
