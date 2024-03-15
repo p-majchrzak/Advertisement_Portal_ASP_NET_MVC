@@ -1,24 +1,17 @@
-using Advertisement_Portal_ASP_NET_MVC.Models;
+﻿using Advertisement_Portal_ASP_NET_MVC.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace Advertisement_Portal_ASP_NET_MVC.Controllers
 {
-    public class HomeController : Controller
+    public class LoadController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly ILogger<LoadController> _logger;
+        public LoadController(ILogger<LoadController> logger)
         {
             _logger = logger;
         }
-
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
         {
             return View();
         }
