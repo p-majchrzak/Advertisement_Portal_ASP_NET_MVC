@@ -15,7 +15,7 @@ namespace Advertisement_Portal_ASP_NET_MVC.Controllers
         {
             return View();
         }
-        public IActionResult RecoverPassowrd()
+        public IActionResult RecoverPassword()
         {
             return View();
         }
