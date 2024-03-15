@@ -19,6 +19,18 @@
     font-size: 15px;
     font-weight: bold;
 }
+.ButtonSkills {
+    background-color: transparent;
+    border-color: #665D8C;
+    color: white;
+    background-color: #40356F;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 5px;
+}
+.DarkViolet {
+    color: #40356F;
+}
 .loginPosition {
     margin-top: auto;
     margin-bottom: auto;
