@@ -1,1 +1,49 @@
-﻿
+﻿@media (max-width: 991px) {
+    .loginStyle {
+        width: 30%;
+        height: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .BackButton {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 5px;
+        background-color: #635FCE;
+        border-color: #635FCE;
+        text-align: center;
+    }
+}
+@media (min-width: 992px) {
+    .loginStyle {
+        width: 12%;
+        height: 12%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .BackButton {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 40px;
+        border-radius: 5px;
+        margin: 5px;
+        background-color: #635FCE;
+        border-color: #635FCE;
+        text-align: center;
+    }
+}
+.UniversalButton {
+    background-color: #40356F;
+    border-color: #40356F;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
