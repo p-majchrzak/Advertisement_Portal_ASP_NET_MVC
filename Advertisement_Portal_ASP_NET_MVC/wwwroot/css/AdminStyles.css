@@ -47,3 +47,39 @@
     font-size: 15px;
     font-weight: bold;
 }
+.nav-link{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #40356F;
+}
+.nav-link:hover{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #40356F;
+    font-weight: bold;
+    text-decoration: none;
+}
+.dropdown-item,.dropdown-toggle,.dropdown{
+    color: #40356F;
+    text-decoration: none;
+}
+
+.dropdown-item:hover,.dropdown-toggle:hover,.dropdown:hover{
+    color: #40356F;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar {
+    background-color: white;
+}
+.nav-item {
+    color: #40356F;
+    margin: auto;
+}
+
+.dropdown {
+    margin: auto;
+}
+.navbar {
+    vertical-align: bottom;
+}
