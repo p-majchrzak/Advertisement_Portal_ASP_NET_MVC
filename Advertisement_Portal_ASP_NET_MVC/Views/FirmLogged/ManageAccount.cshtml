@@ -1,2 +1,42 @@
 ﻿@{
+    Layout = "FirmLoggedLayout";
+    ViewData["Title"] = "Zarządzanie kontem";
 }
+<div class="row">
+    <div class="col-0 col-lg-2"></div>
+    <div class="container-fluid DarkViolet col-12 col-lg-8">
+        <hr>
+        <div class="row">
+            <div class="col-12 col-lg-3 LightViolet profilFirmyObramowanie">
+                <button style="border-radius: 5%; border: #40356F 1px solid; background-image: url(''); background-size: 100%; width: 150px; height: 150px;">
+                </button>
+                <input type="text" class="form-control" placeholder="Nazwa firmy">
+
+                <label>Lokalizacja</label><br>
+                <input type="text" class="form-control" placeholder="Nazwa miejscowości/miasta">
+                <label>NIP</label><br>
+                <input type="text" class="form-control" placeholder="NIP firmy">
+                <label>REGON</label><br>
+                <input type="text" class="form-control" placeholder="REGON">
+            </div>
+            <div class="col-12 col-lg-5 profilFirmyObramowanie">
+                <b class="DarkViolet" style="font-size: 18px;">Opis firmy</b>
+                <textarea class="form-control" placeholder="Opis firmy"></textarea>
+            </div>
+            <div class="col-12 col-lg-3 profilFirmyObramowanie">
+
+                <label>Email</label><br>
+                <input type="email" class="form-control" placeholder="Email firmy">
+                <label>Numer telefonu</label><br>
+                <input type="tel" class="form-control" placeholder="Numer firmy"><br>
+                <center>
+                    <button class="UniversalButton" style="width: 80%;">Zapisz zmiany</button><br><br>
+                    <button class="UniversalButton" style="width: 80%; background-color: #665D8C; border: 1px solid #665D8C;">Zmień hasło</button><br><br>
+                    <button class="UniversalButton" style="width: 80%; background-color: #A29FE2; border: 1px solid #A29FE2;">Usuń konto</button><br><br>
+                </center>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="col-0 col-lg-2"></div>
+</div>
