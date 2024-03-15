@@ -13,11 +13,13 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/Script.js" asp-append-version="true"></script>
+    <body>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
+    </body>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
