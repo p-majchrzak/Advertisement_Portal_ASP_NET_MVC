@@ -1,1 +1,87 @@
-﻿
+﻿.loginStyle {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+@media (max-width: 991px) {
+    .loginStyle {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    .loginPhoto {
+        width: 30%;
+        height: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rightSiteLogin {
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+    .CenterText {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 0;
+        margin: 0;
+    }
+    .BackgroundTheme {
+        background-color: white !important;
+    }
+}
+@media (min-width: 992px) {
+    .loginPhoto {
+        width: 12%;
+        height: 12%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .formStyle {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .CenterText {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .BackgroundTheme {
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+}
+.UniversalButton {
+    background-color: #40356F;
+    border-color: #40356F;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ButtonSkills {
+    background-color: transparent;
+    border-color: #665D8C;
+    color: white;
+    background-color: #40356F;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 5px;
+}
+.rightSiteLogin{
+    background-color: #635FCE;
+    height: 100vh;
+    transition-duration: 0.5s;
+}
+.rightSiteLogin:hover{
+    background-color: #837FD8; 
+    height: 100vh;
+    transition-duration: 0.5s;
+}
