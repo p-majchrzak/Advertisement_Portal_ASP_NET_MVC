@@ -1,0 +1,70 @@
+﻿@{
+    Layout = "FirmLoggedLayout";
+    ViewData["Title"] = "Zarządzanie ogłoszeniem";
+}
+<div class="row">
+    <div class="col-0 col-lg-3"></div>
+    <div class="container-fluid DarkViolet col-12 col-lg-6">
+        <hr>
+        <center><h3>Edytuj ofertę</h3></center>
+        <form>
+            <b>Nazwa stanowiska:</b>
+            <input type="text" class="form-control"><br>
+            <b>Poziom stanowiska:</b>
+            <select class="form-control">
+                <option>Praktykant</option>
+            </select><br>
+            <b>Rodzaj umowy:</b>
+            <select class="form-control">
+                <option>o pracę</option>
+            </select><br>
+            <b>Wymiar pracy:</b>
+            <select class="form-control">
+                <option>cały etat</option>
+            </select><br>
+            <b>Tryb pracy:</b>
+            <select class="form-control">
+                <option>stacjonarna</option>
+            </select><br>
+            <b>Godziny pracy:</b>
+            <input type="text" class="form-control"><br>
+            <b>Obowiązki:</b>
+            <input type="text" class="form-control"><br>
+            <b>Benefity:</b>
+            <input type="text" class="form-control"><br>
+            <b>Kategoria:</b>
+            <select class="form-control">
+                <option>Programista</option>
+            </select><br>
+            <b>Podkategoria:</b>
+            <select class="form-control">
+                <option>WPF</option>
+            </select><br>
+            <b>Data wygaśnięcia ogłoszenia:</b>
+            <input type="date" class="form-control"><br>
+            <b>Wymagania:</b>
+            <input type="text" class="form-control"><br>
+            <b>Widełki wynagrodzenia:</b>
+            <input type="text" class="form-control"><br>
+            <b>Umiejętności:</b>
+            <div class="row">
+                <div class="col-12 col-lg-10">
+                    <select class="form-control">
+                        <option>WPF</option>
+                    </select><br>
+                </div>
+                <div class="col-12 col-lg-2">
+                    <button class="UniversalButton" style="width: 150px; height: 40px; margin: 0;">Dodaj umiejętność</button>
+                </div>
+            </div>
+            <div>
+                <b>Dodane Umiejętności:</b><br>
+                <button class="ButtonSkills">Xamarin.Forms</button><button class="ButtonSkills">Github</button><button class="ButtonSkills">VS 2022</button><button class="ButtonSkills">C#</button>
+            </div>
+            <br>
+            <center><button class="UniversalButton" style="width: 30%;">Zapisz zmiany</button></center>
+        </form>
+        <hr>
+    </div>
+    <div class="col-0 col-lg-3"></div>
+</div>

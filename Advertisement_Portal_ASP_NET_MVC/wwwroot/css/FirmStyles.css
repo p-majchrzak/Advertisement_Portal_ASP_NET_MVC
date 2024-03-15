@@ -1,0 +1,168 @@
+﻿.leftSiteLogin {
+    background-color: #40356F;
+    height: 100vh;
+    transition-duration: 0.5s;
+}
+.leftSiteLogin:hover {
+    background-color: #665D8C;
+    height: 100vh;
+    transition-duration: 0.5s;
+}
+.UniversalButton {
+    background-color: #40356F;
+    border-color: #40356F;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.ButtonSkills {
+    background-color: transparent;
+    border-color: #665D8C;
+    color: white;
+    background-color: #40356F;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 5px;
+}
+.DarkViolet {
+    color: #40356F;
+}
+.LightViolet {
+    color: #665D8C;
+}
+.loginPosition {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nav-item{
+    color: #40356F;
+    margin: auto;
+}
+
+.dropdown{
+    margin: auto;
+}
+
+.navbar{
+    vertical-align: bottom;
+}
+.firmProfileBorder {
+    border: 1px solid lightgray;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: rgb(248, 248, 248);
+}
+.nav-link{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #40356F;
+}
+.nav-link:hover{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #40356F;
+    font-weight: bold;
+    text-decoration: none;
+}
+.dropdown-item,.dropdown-toggle,.dropdown{
+    color: #40356F;
+    text-decoration: none;
+}
+
+.dropdown-item:hover,.dropdown-toggle:hover,.dropdown:hover{
+    color: #40356F;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar {
+    background-color: white;
+}
+@media (max-width: 991px) {
+    .BackgroundTheme {
+        background-color: white !important;
+    }
+    .leftSiteLogin {
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+    .loginPosition {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    .loginPhoto {
+        width: 30%;
+        height: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .BackButton {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 5px;
+        background-color: #635FCE;
+        border-color: #635FCE;
+        text-align: center;
+    }
+    .centerText {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 0;
+        margin: 0;
+    }
+    .PhotoBackgroundStyle {
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 992px) {
+    .BackgroundTheme {
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    .loginPhoto {
+        width: 12%;
+        height: 12%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .formStyle {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .BackButton {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 40px;
+        border-radius: 5px;
+        margin: 5px;
+        background-color: #635FCE;
+        border-color: #635FCE;
+        text-align: center;
+    }
+    .centerText {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .PhotoBackgroundStyle {
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
