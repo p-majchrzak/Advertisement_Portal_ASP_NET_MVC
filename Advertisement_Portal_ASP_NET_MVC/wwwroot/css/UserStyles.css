@@ -142,3 +142,83 @@
 .LightViolet {
     color: #665D8C;
 }
+.searchBackground {
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(to right, white,#413670);
+}
+.searchBorder {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px #9c9c9c solid;
+    width: 97%;
+    margin: auto;
+}
+.borderSearchBoxLeft {
+    border-radius: 0px;
+    margin: 0px;
+    border: 0px;
+    border-right: 1px solid #9c9c9c;
+    width: 33%;
+}
+.borderSearchBoxCenter {
+    border-radius: 0px;
+    margin: 0px;
+    border: 0px;
+    border-right: 1px solid #9c9c9c;
+    width: 25%;
+}
+.borderSearchBoxRight {
+    border-radius: 0px;
+    border: 0px;
+    margin: 0px;
+    width: 15%;
+}
+.searchFilter {
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #40356F;
+}
+.searchButton {
+    background-color: white;
+    color: #40356F;
+    border-radius: 40px;
+    border: white 2px solid;
+    font-weight: bold;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: 2.5%;
+    width: 120px;
+    height: 45px;
+}
+.MoreButton{
+    border-radius: 40px;
+    border: #40356F 2px solid;
+    font-weight: bold;
+    color: #40356F;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    transition: 1s;
+}
+.MoreButton:hover{
+    border-radius: 40px;
+    border: white 2px solid;
+    font-weight: bold;
+    color: white;
+    background-color: #40356F;
+    width: 200px;
+    height: 50px;
+    transition: 1s;
+}
+.ShowFirmButton {
+    color: #40356F;
+    border: transparent;
+    background-color: transparent;
+    font-weight: bold;
+}
