@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advertisement_Portal_ASP_NET_MVC", "Advertisement_Portal_ASP_NET_MVC\Advertisement_Portal_ASP_NET_MVC.csproj", "{68D9A5EA-7A91-49E1-B67A-8B360F5A348A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advertisement_Portal_ASP_NET_MVC", "Advertisement_Portal_ASP_NET_MVC\Advertisement_Portal_ASP_NET_MVC.csproj", "{68D9A5EA-7A91-49E1-B67A-8B360F5A348A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advertisement_Portal_ASP_NET_MVC.Domain", "Advertisement_Portal_ASP_NET_MVC.Domain\Advertisement_Portal_ASP_NET_MVC.Domain.csproj", "{A5A606A4-F5A0-4247-B2A7-558F4E1E8B05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advertisement_Portal_ASP_NET_MVC.Application", "Advertisement_Portal_ASP_NET_MVC.Application\Advertisement_Portal_ASP_NET_MVC.Application.csproj", "{DA87AE2A-8299-48FB-B751-711E81E8E2BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advertisement_Portal_ASP_NET_MVC.Infrastructure", "Advertisement_Portal_ASP_NET_MVC.Infrastructure\Advertisement_Portal_ASP_NET_MVC.Infrastructure.csproj", "{11986493-2DA0-4855-8F16-497E47090E22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{68D9A5EA-7A91-49E1-B67A-8B360F5A348A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68D9A5EA-7A91-49E1-B67A-8B360F5A348A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68D9A5EA-7A91-49E1-B67A-8B360F5A348A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A606A4-F5A0-4247-B2A7-558F4E1E8B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A606A4-F5A0-4247-B2A7-558F4E1E8B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A606A4-F5A0-4247-B2A7-558F4E1E8B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A606A4-F5A0-4247-B2A7-558F4E1E8B05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA87AE2A-8299-48FB-B751-711E81E8E2BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA87AE2A-8299-48FB-B751-711E81E8E2BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA87AE2A-8299-48FB-B751-711E81E8E2BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA87AE2A-8299-48FB-B751-711E81E8E2BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11986493-2DA0-4855-8F16-497E47090E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11986493-2DA0-4855-8F16-497E47090E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11986493-2DA0-4855-8F16-497E47090E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11986493-2DA0-4855-8F16-497E47090E22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
