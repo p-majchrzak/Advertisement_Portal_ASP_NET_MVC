@@ -27,3 +27,9 @@ function FirmLoggedAddAnnoucementNavigation() {
 function FirmLoggedNotificationsNavigation() {
     window.location.href = '/FirmLogged/Notifications';
 }
+function SwapToFirmPage() {
+    window.location.href = '/Firm/Login';
+} 
+function LoadUserPage() {
+    window.location.href = '/UserLogged/Home';
+}
