@@ -38,14 +38,14 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="CompanyData">Dane firmy</a></li>
                                 <li><a class="dropdown-item" href="PrivacyPolicy">Polityka prywatności</a></li>
-                                <li><a class="dropdown-item" href="">Admin Panel</a></li>
+                                <li><a class="dropdown-item" href="/Admin/Login">Admin Panel</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <button class="btn AddButton">Dodaj ogłoszenie</button>
+                            <button class="btn AddButton" onclick="AddAnnouncementButtonNavigation()">Dodaj ogłoszenie</button>
                         </li>
                         <li class="nav-item">
-                            <button class="btn FindButton">Znajdź prace</button>
+                            <button class="btn FindButton" onclick="FindJobButtonNavigation()">Znajdź prace</button>
                         </li>
                     </ul>
                 </div>
@@ -53,8 +53,8 @@
         </nav>
         <div class="buttonsBlock">
             <div style="margin-top: 25%; margin-left: 10%;">
-                <button class="btn AddButton">Dodaj ogłoszenie</button>
-                <button class="btn FindButton">Znajdź prace</button>
+                <button class="btn AddButton" onclick="AddAnnouncementButtonNavigation()">Dodaj ogłoszenie</button>
+                <button class="btn FindButton" onclick="FindJobButtonNavigation()">Znajdź prace</button>
             </div>
         </div>
     </div>
