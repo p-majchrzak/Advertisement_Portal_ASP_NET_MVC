@@ -18,3 +18,6 @@ function BackToHomePage() {
 function LoadFirmLoggedHomePage() {
     window.location.href = '/FirmLogged/Home';
 }
+function LoadAdminPage() {
+    window.location.href = '/AdminLogged/Categories';
+}
