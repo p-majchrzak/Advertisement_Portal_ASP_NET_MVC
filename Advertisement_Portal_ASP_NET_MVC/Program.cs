@@ -19,6 +19,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=UserLogged}/{action=SavedAnnouncement}/{id?}");
+    pattern: "{controller=UserLogged}/{action=SearchAnnouncement}/{id?}");
 
 app.Run();

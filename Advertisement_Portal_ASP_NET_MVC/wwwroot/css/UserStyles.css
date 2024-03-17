@@ -184,6 +184,15 @@
     font-weight: bold;
     color: #40356F;
 }
+.filterBackground {
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    border-left: 1px solid #CFCCDB;
+    border-bottom: 1px solid #CFCCDB;
+    border-right: 1px solid #CFCCDB;
+    margin-top: -1px;
+}
 .searchButton {
     background-color: white;
     color: #40356F;
@@ -221,4 +230,39 @@
     border: transparent;
     background-color: transparent;
     font-weight: bold;
+}
+.backgroundSearchAnnouncement {
+    border-radius: 10px 10px 10px 0px;
+    border-left: 1px solid #CFCCDB;
+    border-top: 1px solid #CFCCDB;
+    border-right: 1px solid #CFCCDB;
+    border-bottom: 1px solid #CFCCDB;
+    padding: 10px;
+    margin-left: -12px;
+    background-color: rgb(245, 245, 245);
+}
+.borderSearchAnnouncementNew {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px #9c9c9c solid;
+    width: 100%;
+    margin: auto;
+}
+.SearchAnnouncementButton {
+    width: 200px;
+    height: 50px;
+    background-color: #40356F;
+    border: 2px solid #40356F;
+    font-weight: bold;
+    color: white;
+    border-radius: 40px;
+    transition: 1s;
+}
+.SearchAnnouncementButton:hover{
+    background-color: white;
+    color: #40356F;
+    transition: 1s;
 }
