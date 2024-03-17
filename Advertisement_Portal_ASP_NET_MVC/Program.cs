@@ -19,6 +19,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=UserLogged}/{action=MyApplications}/{id?}");
+    pattern: "{controller=UserLogged}/{action=Notifications}/{id?}");
 
 app.Run();
