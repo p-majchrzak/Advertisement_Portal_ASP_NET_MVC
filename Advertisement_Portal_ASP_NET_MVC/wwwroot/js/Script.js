@@ -21,3 +21,9 @@ function LoadFirmLoggedHomePage() {
 function LoadAdminPage() {
     window.location.href = '/AdminLogged/Categories';
 }
+function FirmLoggedAddAnnoucementNavigation() {
+    window.location.href = '/FirmLogged/AddAnnouncement';
+}
+function FirmLoggedNotificationsNavigation() {
+    window.location.href = '/FirmLogged/Notifications';
+}
