@@ -34,14 +34,14 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="CompanyData">Dane firmy</a></li>
                             <li><a class="dropdown-item" href="PrivacyPolicy">Polityka prywatności</a></li>
-                            <li><a class="dropdown-item" href="">Admin Panel</a></li>
+                            <li><a class="dropdown-item" href="/Admin/Login">Admin Panel</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <button class="btn AddButton">Dodaj ogłoszenie</button>
+                        <button class="btn AddButton" onclick="AddAnnouncementButtonNavigation()">Dodaj ogłoszenie</button>
                     </li>
                     <li class="nav-item">
-                        <button class="btn FindButton">Znajdź prace</button>
+                        <button class="btn FindButton" onclick="FindJobButtonNavigation()">Znajdź prace</button>
                     </li>
                 </ul>
             </div>
@@ -78,6 +78,7 @@
         <hr>
         <center><p>© 2024 Piotr Majchrzak 4TP1</p></center>
     </footer>
+    <script src="~/js/Script.js" asp-append-version="true"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/Script.js" asp-append-version="true"></script>
