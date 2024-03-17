@@ -1,0 +1,84 @@
+﻿@{
+    Layout = "UserLoggedLayout";
+    ViewData["Title"] = "Wyszukiwanie ogłoszeń";
+}
+<div class="row">
+    <div class="col-0 col-lg-2"></div>
+    <div class="col-12 col-lg-8">
+        <b class="DarkViolet">Wyszukiwarka ofert</b>
+        <div class="backgroundSearchAnnouncement">
+            <div class="row borderSearchAnnouncementNew">
+                <input type="text" class="form-control borderSearchBoxLeft" placeholder="Stanowisko">
+                <select class="form-control form-select borderSearchBoxCenter">
+                    <option>Kategoria</option>
+                </select>
+                <input type="text" class="form-control borderSearchBoxCenter" placeholder="Lokalizacja">
+                <select class="form-control form-select borderSearchBoxRight">
+                    <option>+30km</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="col-0 col-lg-2"></div>
+</div>
+
+<div class="row">
+    <div class="col-0 col-lg-2"></div>
+    <div class="col-0 col-lg-3">
+        <div class="row filterBackground">
+            <select class="form-select searchFilter">
+                <br>
+                <option value="1">Poziom stanowiska</option>
+                <option value="1">Poziom stanowiska</option>
+            </select>
+            <select class="form-select searchFilter">
+                <option value="1">Rodzaj umowy</option>
+            </select>
+            <select class="form-select searchFilter">
+                <option value="1">Wymiar pracy</option>
+            </select>
+            <select class="form-select searchFilter">
+                <option value="1">Tryb pracy</option>
+            </select>
+            <center><button class="SearchAnnouncementButton">Szukaj</button></center>
+        </div>
+    </div>
+    <div class="col-0 col-lg-5 DarkViolet">
+        <b>Ilość ofert: </b>0<br>
+        <select class="form-select" aria-label="Default select example">
+            <option value="1">Najnowsze</option>
+            <option value="2">Najstarsze</option>
+        </select>
+
+        <!--Start-->
+        <div>
+            <div class="container-fluid DarkViolet col-12 col-lg-12">
+                <div class="navbar navbar-expand-lg">
+                    <b style="font-size: 30px;">Programista</b>
+                    <ul class="navbar-nav" style="margin-left: 55%;">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Opcje
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="widok_oferty.html">Zobacz pełną ofertę</a></li>
+                                <li><a class="dropdown-item" href="modyfikuj_oferte.html">Aplikuj</a></li>
+                                <li><a class="dropdown-item">Zapisz</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <p>Dołącz do naszego zespołu jako doświadczony Programista C#/WPF i współtwórz innowacyjne aplikacje, które przyczynią się do rozwoju naszych produktów i usług. Jako kluczowy członek zespołu rozwoju oprogramowania będziesz odpowiedzialny za projektowanie, implementację oraz utrzymanie aplikacji desktopowych opartych na platformie Windows przy użyciu języka C# i frameworku Windows Presentation Foundation (WPF).</p>
+                <b>Wymagania: </b><br>
+                <label>-Projektowanie i implementacja efektywnych rozwiązań w języku C# przy wykorzystaniu technologii WPF.</label><br>
+                <label>-Współpraca z zespołem projektowym w celu określenia i zrozumienia wymagań funkcjonalnych.</label><br>
+                <label>-Utrzymywanie i rozwijanie istniejących aplikacji, identyfikowanie i naprawianie błędów.</label><br>
+                <b>Umiejętności -</b><button class="ButtonSkills">Xamarin.Forms</button><button class="ButtonSkills">Github</button><button class="ButtonSkills">VS 2022</button><button class="ButtonSkills">C#</button>
+                <br><label style="margin-right: 25px;"><b>Lokalizacja - </b>Kamienica</label><label style="margin-right: 25px;"><b>Rodzaj umowy -</b> O pracę</label> <b>Widełki zarobków - </b> 7000/8000zł
+                <hr>
+            </div>
+        </div>
+        <!--Koniec-->
+    </div>
+    <div class="col-0 col-lg-3"></div>
+</div>
