@@ -33,3 +33,6 @@ function SwapToFirmPage() {
 function LoadUserPage() {
     window.location.href = '/UserLogged/Home';
 }
+function UserLoggedNotificationsNavigation() {
+    window.location.href = '/FirmLogged/Notifications';
+}
