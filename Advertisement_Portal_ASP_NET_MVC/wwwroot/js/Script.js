@@ -9,3 +9,12 @@ function AddAnnouncementButtonNavigation() {
 function FindJobButtonNavigation() {
     window.location.href = '/User/Login';
 } 
+function SwapToUserPage() {
+    window.location.href = '/User/Login';
+} 
+function BackToHomePage() {
+    window.location.href = '/General/Home';
+}
+function LoadFirmLoggedHomePage() {
+    window.location.href = '/FirmLogged/Home';
+}
