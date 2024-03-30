@@ -14,5 +14,6 @@ namespace Advertisement_Portal_ASP_NET_MVC.Domain.Entities
         public int NIP { get; set; }
         public int REGON { get; set; }
         public string PhoneNubmer { get; set; } = default!;
+        public FirmLogginData Firm { get; set; } = default!;
     }
 }
