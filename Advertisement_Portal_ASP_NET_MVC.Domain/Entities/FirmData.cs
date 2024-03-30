@@ -13,6 +13,7 @@ namespace Advertisement_Portal_ASP_NET_MVC.Domain.Entities
         public string Location { get; set; } = default!;
         public int NIP { get; set; }
         public int REGON { get; set; }
+        public string Description { get; set; } = default!;
         public string PhoneNubmer { get; set; } = default!;
         public FirmLogginData Firm { get; set; } = default!;
     }
