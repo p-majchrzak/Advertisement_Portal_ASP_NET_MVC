@@ -14,7 +14,7 @@ namespace Advertisement_Portal_ASP_NET_MVC.Domain.Entities
         public string Surname { get; set; } = default!;
         public string Descripotion { get; set; } = default!;
         public string PhoneNumber { get; set; } = default!;
-        public UserData User { get; set; } = default!;
+        public UserLogginData User { get; set; } = default!;
 
     }
 }
