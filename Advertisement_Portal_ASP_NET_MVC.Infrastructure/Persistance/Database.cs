@@ -30,9 +30,9 @@ namespace Advertisement_Portal_ASP_NET_MVC.Infrastructure.Persistance
         public DbSet<Domain.Entities.Subcategory> Subcategory_Table { get; set;}
         public DbSet<Domain.Entities.UserData> UserData_Table { get; set;}
         public DbSet<Domain.Entities.UserLogginData> UserLogginData_Table { get; set;}
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public Database(DbContextOptions<Database> options) : base(options)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=LocalDataBase;Trusted_Connection=True;");
+
         }
     }
 }

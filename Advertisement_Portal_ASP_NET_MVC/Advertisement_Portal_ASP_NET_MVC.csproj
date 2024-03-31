@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Advertisement_Portal_ASP_NET_MVC.Application\Advertisement_Portal_ASP_NET_MVC.Application.csproj" />
+    <ProjectReference Include="..\Advertisement_Portal_ASP_NET_MVC.Infrastructure\Advertisement_Portal_ASP_NET_MVC.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

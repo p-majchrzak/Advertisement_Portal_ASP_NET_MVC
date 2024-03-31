@@ -1,6 +1,12 @@
+using Advertisement_Portal_ASP_NET_MVC.Infrastructure.Persistance;
+using Microsoft.EntityFrameworkCore;
+using Advertisement_Portal_ASP_NET_MVC.Infrastructure.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 
